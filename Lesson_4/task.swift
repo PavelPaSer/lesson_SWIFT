@@ -20,9 +20,9 @@ enum Topping {
 
 struct Pizza {
     let pizzaType: PizzaType
-    let crustType: String // Толстое или тонкое тесто
-    let toppings: [Topping] // Массив выбранных добавок
-    let price: Double // Стоимость
+    let crustType: String 
+    let toppings: [Topping] 
+    let price: Double 
 }
     
 //4. Создать класс пиццерии, добавить массив с возможными пиццами. Переменная с массивом должна быть приватной. Массив задается в инициализаторе.
